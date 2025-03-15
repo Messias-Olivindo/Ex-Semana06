@@ -30,9 +30,11 @@ c) A saída será undefined seguido de undefined
 
 d) A saída será erro em ambas as linhas que utilizam console.log
 
-**Resposta:
-a) A saída será undefined seguido de erro
-Pois o valor de x e y não podem ser acessados já que só foram declarados depois do console.log**
+**Resposta:**
+
+**a) A saída será undefined seguido de erro**
+
+**Pois o valor de x e y não podem ser acessados já que só foram declarados depois do console.log**
 
 ___
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
@@ -55,9 +57,11 @@ c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
 
-**Resposta
-b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
-Apesar de toda soma existir, acreito que o desenvolvedor queria retornar "Número inválido" quando o resultado da soma for igual a zero, e esse caso só é possível quando ambas as variáveis são igual a 0. No entanto, para indicar que toda soma resulta em um número válido deve-se apagar toda a condição proposta, não somente a verificação if (a || b === 0), uma vez que a função retornaria "Número inválido" para qualquer número inserido.**
+**Resposta**
+
+**b) Substituir if (a || b === 0) por if (a === 0 && b === 0)**
+
+**Apesar de toda soma existir, acredito que o desenvolvedor queria retornar "Número inválido" quando o resultado da soma for igual a zero, e esse caso só é possível quando ambas as variáveis são iguais a 0. No entanto, para indicar que toda soma resulta em um número válido deve-se apagar toda a condição proposta, não somente a verificação if (a || b === 0), uma vez que a função retornaria "Número inválido" para qualquer número inserido.**
 
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -92,9 +96,11 @@ c) O código imprime 50.
 
 d) O código gera um erro.
 
-**Reposta:
-b) O código imprime 200.
-Apesar da variável ```preco``` ser igual a ```eletronico```, o case com essa string não apresenta ```break```, dessa forma o código continua e retorna o valor do outro case que apresenta break que no caso é o ```case: "vestuário": preco = 200; break;```, retornando 200 como ```preco```.** 
+**Reposta:**
+
+**b) O código imprime 200.**
+
+**Apesar da variável ```preco``` ser igual a ```eletronico```, o case com essa string não apresenta ```break```, dessa forma o código continua e retorna o valor do outro case que apresenta break,  o ```case: "vestuário": preco = 200; break;```, retornando 200 como ```preco```.** 
 
 ______
 **4) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -113,9 +119,11 @@ c) 18
 
 d) 24
 
-**Resposta:
-d) 24
-A primeira função ```.map()``` altera os elementos do array de acordo com a função escrita: ```x*2``` mudando o array para ```[2,4,6,8,10]```. A função ```.filter()```, serve para eliminar os elementos do array que não são de acordo com a condição descrita: ```x>5``` mudando o array para ```[6,8,10]```. Por fim, ```.reduce()``` diminue o array de acordo com a função inserida: ```a+b``` mudando o array para apenas uma variável 24.**
+**Resposta:**
+
+**d) 24**
+
+**O primeiro método ```.map()``` altera os elementos do array de acordo com o método escrita: ```x*2``` mudando o array para ```[2,4,6,8,10]```. O método ```.filter()```, serve para eliminar os elementos do array que não são de acordo com a condição descrita: ```x>5``` mudando o array para ```[6,8,10]```. Por fim, ```.reduce()``` diminue o array de acordo com a função inserida: ```a+b``` mudando o array para apenas uma variável 24.**
 
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
@@ -134,9 +142,11 @@ c) ["banana", "abacaxi", "manga", "laranja"]
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 
-**Resposta:
-c) ["banana", "abacaxi", "manga", "laranja"]
-A função ```.splice()```, troca o elemento do array de acordo com o índice indicado como argumento, no carro do comando ```lista.splice(1, 2, "abacaxi", "manga");``` no caso troca os elementos do índice 1 e 2 por abacaxi e manga respectivamente.**
+**Resposta:**
+
+**c) ["banana", "abacaxi", "manga", "laranja"]**
+
+**O método ```.splice()```, troca o elemento do array de acordo com o índice indicado, no caso do comando ```lista.splice(1, 2, "abacaxi", "manga");``` os elementos do índice 1 e 2 são trocados por abacaxi e manga respectivamente.**
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
@@ -152,9 +162,11 @@ c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
 
-**Resposta:
-a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.
-No JavaScript é possível implementar classes para reutilizar código e para uma classe filha acessar os métodos é necessário a palvra chave ```extends``` e usa ```super``` para acessar os atributos.**
+**Resposta:**
+
+**a) As duas afirmações são verdadeiras, e a segunda justifica a primeira.**
+
+**No JavaScript é possível implementar classes para reutilizar códigos e para uma classe filha acessar os métodos é necessário a palvra chave ```extends``` e a palavra ```super``` para acessar os atributos.**
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -198,9 +210,11 @@ c) Apenas II é verdadeira.
 
 d) Apenas I é verdadeira.
 
-**Resposta:
-a) I e II são verdadeiras.
-JavaScript suporta sim herança de classes por meio do termo ```extends```, passando todos os métodos feitos na classe pai para a classe filha**
+**Resposta:**
+
+**a) I e II são verdadeiras.**
+
+**JavaScript suporta sim herança de classes por meio do termo ```extends```, passando todos os métodos feitos na classe pai para a classe filha**
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -216,9 +230,11 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
-**Resposta:
-b) A asserção é verdadeira e a razão é falsa.
-Polimorfismo permite as mesmas respostas de maneiras diferentes em POO, no entanto, no JavaScript essa característica é observada por meio da sobrescrita de métodos da classe pai.**
+**Resposta:**
+
+**b) A asserção é verdadeira e a razão é falsa.**
+
+**Polimorfismo permite as mesmas respostas de maneiras diferentes em POO, no entanto, no JavaScript essa característica é observada por meio da sobrescrita de métodos da classe pai.**
 ______
 
 # Questões dissertativas
@@ -286,5 +302,6 @@ class Livro extends Produto{
 }
 ```
 
-**Explicação: 
-A classe Livro herda os atributos declarados no constructor da classe pai Produto por meio do super, além de herdar todos os métodos da classe pai, no entanto ocorre a sobrescrita do método calcularDesconto() para ser de acordo com o desconto dado ao livro**
+**Explicação:**
+
+**A classe Livro herda os atributos declarados no constructor da classe pai Produto por meio do super, além de herdar todos os métodos da classe pai, no entanto ocorre a sobrescrita do método calcularDesconto() para ficar de acordo com o desconto dado ao livro**
